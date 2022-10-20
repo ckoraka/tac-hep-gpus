@@ -1,1 +1,1 @@
-# tac-hep-gpus
+# TAC HEP trainership programm 
