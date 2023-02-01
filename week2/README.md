@@ -7,7 +7,7 @@
 - **Exercise 2**
   - Create a data structure that will hold information about the TAC-HEP students such as name, email, username, experiment etc.
   - From the main function create multiple objects, one for each student including yourselves.
-  - Create a function that takes the struct as an argument and prints out the values of all members. Make sure to pass the struct by reference and ensure that members values cannot change.
+  - Create a function that takes the struct as an argument and prints out the values of all struct members. Make sure to pass the struct by reference and ensure that members values cannot change.
 
 - **Exercise 3**
   - Create a function that simulates the game "rock, paper, scissors". The function should take as input the choice of both players (rock, paper or scissors). The function should return the player who won or if there was a draw.
