@@ -13,7 +13,7 @@
   - Create a function that simulates the game "rock, paper, scissors". The function should take as input the choice of both players (rock, paper or scissors). The function should return the player who won or if there was a draw.
 
 - **Exercise 4**
-  - Take a look at the `main.cc` code in the [Exercise 4]() directory. This code reads branches from a ROOT tree containing lepton and jet kinematic information. To see the type of each variable take a look at the headerfile `hh/t1.h`.
+  - Take a look at the `main.cc` code in the [Exercise 4](https://github.com/ckoraka/tac-hep-gpus/tree/main/week2/Exercise4) directory. This code reads branches from a ROOT tree containing lepton and jet kinematic information. To see the type of each variable take a look at the headerfile `hh/t1.h`.
   - For the `Particle` class, add 1 more constructor that takes 4 arguments (4-momentum).
   - Fix all member functions adding the appropriate implementation (denoted with **FIXME**).
   - Using the `Particle` class, create two daughter classes, one for leptons (e.g. Lepton) and one for jets (e.g. Jet). 
