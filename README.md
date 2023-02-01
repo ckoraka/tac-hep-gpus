@@ -6,7 +6,8 @@ TAC-HEP is a recently funded multi-institutional (Princeton, UMass and UW-Madiso
 
 **Welcome to the GPU training module!**
 
-Programming for heterogeneous architectures (GPUs): The software & computing challenge of the HL-LHC era requires us to modernize software and design novel algorithms taking advantage of hardware accelerators (e.g. GPUs). This training module will introduce students to scientific computing on heterogeneous architectures and will discuss implications of heterogeneous hardware on the design and architecture of scientific software. Students will learn how to program for GPUs taking into account thread and memory organization and will assemble basic building blocks of a GPU program 
+Programming for heterogeneous architectures (GPUs): The software & computing challenge of the HL-LHC era requires us to modernize software and design novel algorithms taking advantage of hardware accelerators (e.g. GPUs). This training module will introduce students to scientific computing on heterogeneous architectures and will discuss implications of heterogeneous hardware on the design and architecture of scientific software. Students will learn how to program for GPUs taking into account thread and memory organization and will assemble basic building blocks of a GPU program. 
+
 
 ## Assignments 
 
