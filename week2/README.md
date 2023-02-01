@@ -19,6 +19,6 @@
   - Using the `Particle` class, create two daughter classes, one for leptons (e.g. Lepton) and one for jets (e.g. Jet). 
     - To the lepton daughter class, add an additional member function that reads / stores the lepton charge.
     - To the jet daughter class, add an additional member function that reads / stores the jet hadron flavor ( FYI, the value of the hadron flavor is 5 if jets are originating from b-hadrons, 4 if jet is originating from c-hadron and 0 if jet is originating from u,d,s hadrons or gluons). 
-  - In the main function, access event jets and leptons (NOTE: these are arrays, so you should create an additional loop).
+  - In the main function, access event jets and leptons (NOTE: these are arrays, so you should create an additional loop to sead the elements of each variable).
     - For each jet, create a jet object and print out the values of all its members.
     - For each lepton, create a lepton object and print out the values of all its members.
