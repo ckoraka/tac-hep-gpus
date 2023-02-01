@@ -6,7 +6,7 @@
 
 - **Exercise 2**
   - Create a data structure that will hold information about the TAC-HEP students such as name, email, username, experiment etc.
-  - From the main function create multiple instances of the struct, one for each student including yourselves.
+  - From the main function create multiple objects, one for each student including yourselves.
   - Create a function that takes the struct as an argument and prints out the values of all members. Make sure to pass the struct by reference and ensure that members values cannot change.
 
 - **Exercise 3**
