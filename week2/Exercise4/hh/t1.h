@@ -19,5 +19,5 @@ Float_t jetPt[maxJetSize];
 Float_t jetEta[maxJetSize];
 Float_t jetPhi[maxJetSize];
 Float_t jetE[maxJetSize];
-Int_t jetHadronFlavour[maxJetSize];
+Float_t jetHadronFlavour[maxJetSize];
 
