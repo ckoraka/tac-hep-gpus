@@ -1,0 +1,44 @@
+Here are all the students in the training.
+
+Name: Elise Chavez
+Email: emchavez@wisc.edu
+Experiment: CMS
+Username: emchavez
+University: UW-Madison
+Hobby: Cooking
+
+Name: Trevor Nelson
+Email: twnelson2@wisc.edu
+Experiment: CMS
+Username: twnelson2
+University: UW-Madison
+Hobby: Hiking
+
+Name: Ryan Simeon
+Email: rsimeon@wisc.edu
+Experiment: CMS
+Username: rsimeon
+University: UW-Madison
+Hobby: Soccer
+
+Name: Stephanie Kwan
+Email: skwan@princeton.edu
+Experiment: CMS
+Username: skkwan
+University: Princeton
+Hobby: Birdwatching
+
+Name: Matt Harris
+Email: matthewharri@umass.edu
+Experiment: ATLAS
+Username: <missing>
+University: U-Mass
+Hobby: <missing>
+
+Name: Matt Maroun
+Email: mmaroun@umass.edu
+Experiment: ATLAS
+Username: <missing>
+University: U-Mass
+Hobby: Playing bass
+
