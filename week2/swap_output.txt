@@ -1,5 +1,0 @@
-This is array A: [79 47 10 28 51 76 39 14 28 97 ]
-This is array B: [88 70 68 15 64 54 85 40 8 65 ]
-Now they will swap.
-This is now array A: [88 70 68 15 64 54 85 40 8 65 ]
-This is now array B: [79 47 10 28 51 76 39 14 28 97 ]
