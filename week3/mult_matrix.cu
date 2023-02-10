@@ -82,7 +82,7 @@ int main() {
     // Specify the block and grid dimentions 
     dim3 block(,);  //FIXME
     dim3 grid(,); //FIXME
-    mmul<<<grid, block>>>(d_A, d_B, d_C, DSIZE);
+    matrix_mul_gpu<<<grid, block>>>(d_A, d_B, d_C, DSIZE);
 
     // Copy results back to host
     cudaMemcpy(h_C, d_C, DSIZE*DSIZE*sizeof(float), cudaMemcpyDeviceToHost);
