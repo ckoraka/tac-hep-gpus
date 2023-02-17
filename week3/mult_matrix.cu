@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
+
 const int DSIZE = 256;
 const float A_val = 3.0f;
 const float B_val = 2.0f;
