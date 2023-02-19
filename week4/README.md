@@ -7,7 +7,11 @@
 - **Exercise 2** 
   - Apply a 2-D stencil of radius RADIUS on a 2-D square matrix of size DSIZE * DSIZE. 
   - The stencil is shown in the Figure below :
-  ![](stencil_2d.png)
+  
+  
+![](stencil_2d.png)
+
+
 - Make use of shared memory :
   - Remember to also load into shared memory the 'halo' elements of the matrix.
 - Start from file **stencil_2d.cu**.
