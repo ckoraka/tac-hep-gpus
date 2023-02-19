@@ -38,7 +38,7 @@ __global__ void matrix_mul_gpu(const float *A, const float *B, float *C, int siz
         for (int i = 0; i < size; i++){
             //FIXME : Add dot product of row and column
         }
-        C[idy*size+idx] = temp;                    
+        C[idy*ds+idx] = temp;                    
         // Note: If you choose 2-d then this would be C[idy,idx]
     }
 
@@ -82,7 +82,7 @@ int main() {
     // Specify the block and grid dimentions 
     dim3 block(,);  //FIXME
     dim3 grid(,); //FIXME
-    matrix_mul_gpu<<<grid, block>>>(d_A, d_B, d_C, DSIZE);
+    mmul<<<grid, block>>>(d_A, d_B, d_C, DSIZE);
 
     // Copy results back to host
     cudaMemcpy(h_C, d_C, DSIZE*DSIZE*sizeof(float), cudaMemcpyDeviceToHost);
