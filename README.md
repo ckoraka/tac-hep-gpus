@@ -13,4 +13,4 @@ Programming for heterogeneous architectures (GPUs): The software & computing cha
 
 - **Week 2** [Introduction to C++](https://github.com/ckoraka/tac-hep-gpus/tree/main/week2)
 - **Week 3** [Introduction to CUDA](https://github.com/ckoraka/tac-hep-gpus/tree/main/week3)
-- **Week 4** [Introduction to CUDA (continued)]()
+- **Week 4** [Introduction to CUDA (continued)](https://github.com/ckoraka/tac-hep-gpus/tree/main/week4)
