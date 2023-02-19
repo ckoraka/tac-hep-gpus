@@ -79,8 +79,8 @@ int main() {
 
     // Launch kernel
     // Specify the block and grid dimentions 
-    dim3 block(32,32);  //FIXME
-    dim3 grid(8,8); //FIXME
+    dim3 block(,);  //FIXME
+    dim3 grid(,); //FIXME
     matrix_mul_gpu<<<grid, block>>>(d_A, d_B, d_C, DSIZE);
 
     // Copy results back to host
