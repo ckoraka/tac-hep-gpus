@@ -80,26 +80,25 @@ int main(void) {
 
 	// Error Checking
 	for (int i = 0; i < N + 2 * RADIUS; ++i) {
-
 		for (int j = 0; j < N + 2 * RADIUS; ++j) {
 
 			if (i < RADIUS || i >= N + RADIUS) {
-			if (out[j+i*(N + 2 * RADIUS)] != 1) {
-				printf("Mismatch at index [%d,%d], was: %d, should be: %d\n", i,j, out[j+i*(N + 2 * RADIUS)], 1);
-				return -1;
-			}
+				if (out[j+i*(N + 2 * RADIUS)] != 1) {
+					printf("Mismatch at index [%d,%d], was: %d, should be: %d\n", i,j, out[j+i*(N + 2 * RADIUS)], 1);
+					return -1;
+				}
 			}
 			else if (j < RADIUS || j >= N + RADIUS) {
-			if (out[j+i*(N + 2 * RADIUS)] != 1) {
-				printf("Mismatch at index [%d,%d], was: %d, should be: %d\n", i,j, out[j+i*(N + 2 * RADIUS)], 1);
-				return -1;
-			}
+				if (out[j+i*(N + 2 * RADIUS)] != 1) {
+					printf("Mismatch at index [%d,%d], was: %d, should be: %d\n", i,j, out[j+i*(N + 2 * RADIUS)], 1);
+					return -1;
+				}
 			}		 
 			else {
-			if (out[j+i*(N + 2 * RADIUS)] != 1 + 4 * RADIUS) {
-				printf("Mismatch at index [%d,%d], was: %d, should be: %d\n", i,j, out[j+i*(N + 2 * RADIUS)], 1 + 4*RADIUS);
-				return -1;
-			}
+				if (out[j+i*(N + 2 * RADIUS)] != 1 + 4 * RADIUS) {
+					printf("Mismatch at index [%d,%d], was: %d, should be: %d\n", i,j, out[j+i*(N + 2 * RADIUS)], 1 + 4*RADIUS);
+					return -1;
+				}
 			}
 		}
 	}
