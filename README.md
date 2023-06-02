@@ -1,4 +1,4 @@
-# Traineeships in Advanced Computing for High Energy Physics
+# Training to Advance Computational High Energy Physics in the Exascale Era (TAC-HEP)
 
 TAC-HEP is a recently funded multi-institutional (Princeton, UMass and UW-Madison) program in Computational High Energy Physics.
 
